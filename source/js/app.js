@@ -5,12 +5,12 @@ let isOn = false; // Flag
 
 btn.addEventListener("click", function () {
   if (isOn) {
-    img.setAttribute("src", "./pics/bulboff.gif");
-    btn.innerHTML = "لامپ را روشن کنید";
+    img.setAttribute("src", "./image/bulboff.gif");
+    btn.innerHTML = "Turn on the lamp.";
     isOn = false;
   } else {
-    img.setAttribute("src", "./pics/bulbon.gif");
-    btn.innerHTML = "لامپ را خاموش کنید";
+    img.setAttribute("src", "./image/bulbon.gif");
+    btn.innerHTML = "Turn off the lamp.";
     isOn = true;
   }
 });
